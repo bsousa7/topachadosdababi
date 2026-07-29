@@ -9,14 +9,14 @@ via links de afiliado com comissão.
 - **Nome:** Top Achados da Babi
 - **Slogan:** Os melhores achados para o seu bebê
 - **Nicho:** Produtos infantis — brinquedos, fraldas, mamadeiras, pomadas
-- **Partner Tag:** topachadosdab-20
+- **Partner Tag:** topachado0f7b-20
 - **Paleta:** rose/pink — #F43F5E (rose-500), branco, cinza-claro
 - **Tom de voz:** acolhedor, prático, confiável para pais e mães
 
 ## Regras inegociáveis
 - NUNCA usar web scraping — apenas Amazon PA-API oficial
 - NUNCA commitar .env ou arquivos .db
-- Todos os links de produto DEVEM conter `tag=topachadosdab-20`
+- Todos os links de produto DEVEM conter `tag=topachado0f7b-20`
 - Disclosure de afiliado em TODAS as páginas (ver frase abaixo)
 - Preços devem mostrar "atualizado em [timestamp]"
 
@@ -50,4 +50,4 @@ Atualizar este campo conforme avança:
   `politica-de-privacidade.html`, `assets/`), pois o GitHub Pages publica de `/ (root)`.
 - Os cards em `index.html` são exemplos (template). Substitua o
   `ASIN_AQUI` e os dados por produtos reais com links gerados via SiteStripe
-  ou o Link Builder do painel de Associados. Todo link precisa de `tag=topachadosdab-20`.
+  ou o Link Builder do painel de Associados. Todo link precisa de `tag=topachado0f7b-20`.

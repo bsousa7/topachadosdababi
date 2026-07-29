@@ -5,7 +5,7 @@ que apresenta artigos para bebês da Amazon Brasil e direciona o visitante à co
 links de afiliado.
 
 - **Slogan:** Os melhores achados para o seu bebê
-- **Partner Tag:** `topachadosdab-20`
+- **Partner Tag:** `topachado0f7b-20`
 - **Stack:** HTML + Tailwind (Fase 1) · Python/Flask/SQLite/Render (Fase 2+)
 
 ---
@@ -59,7 +59,7 @@ topachadosdababi/
 2. **Adicione produtos reais** em `index.html`: para cada produto, gere o link
    de afiliado pela barra **SiteStripe** (opção "Texto") ou pelo **Link Builder** do painel de
    Associados, e substitua nos `<article>` de exemplo: `href`, imagem, título, preço e desconto.
-   Todo link precisa conter `tag=topachadosdab-20` e `rel="noopener sponsored"`.
+   Todo link precisa conter `tag=topachado0f7b-20` e `rel="noopener sponsored"`.
 3. **Submeta a URL** no cadastro do Amazon Associates e divulgue o site para gerar as
    primeiras visitas e vendas.
 
@@ -77,7 +77,7 @@ com as variáveis:
 ```env
 AMAZON_ACCESS_KEY=
 AMAZON_SECRET_KEY=
-AMAZON_PARTNER_TAG=topachadosdab-20
+AMAZON_PARTNER_TAG=topachado0f7b-20
 AMAZON_HOST=webservices.amazon.com.br
 AMAZON_REGION=us-east-1
 SECRET_KEY=   # python3 -c "import secrets; print(secrets.token_hex(32))"
@@ -88,7 +88,7 @@ SECRET_KEY=   # python3 -c "import secrets; print(secrets.token_hex(32))"
 ## Conformidade Amazon Associates
 
 - Disclosure *"Como Associada Amazon, ganho comissões com compras qualificadas."* no rodapé de **todas** as páginas.
-- Links de produto sempre com `tag=topachadosdab-20` e `rel="noopener sponsored"`.
+- Links de produto sempre com `tag=topachado0f7b-20` e `rel="noopener sponsored"`.
 - Apenas PA-API oficial na Fase 2 — **nunca** web scraping.
 - Preços com timestamp de atualização (Fase 2).
 - Páginas `/sobre` e `/politica-de-privacidade` ativas; site indexável.
