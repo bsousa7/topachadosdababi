@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Top Achados da Babi — Os melhores achados para o seu bebê</title>
   <meta name="description" content="Curadoria de produtos infantis — fraldas, higiene, mamadeiras, brinquedos e muito mais, com os melhores achados da Amazon.">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍼</text></svg>">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -17,9 +18,12 @@
 <body class="bg-white text-gray-800 font-sans">
   <header class="bg-rose-600 text-white sticky top-0 z-20 shadow">
     <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-      <div>
-        <a href="index.html" class="text-xl font-bold">🍼 Top Achados da Babi</a>
-        <span class="ml-2 text-rose-200 text-sm hidden sm:inline">Os melhores achados para o seu bebê</span>
+      <div class="flex items-center gap-3">
+        <img src="assets/babi-avatar.png" alt="" class="w-10 h-10 rounded-full ring-2 ring-white/60 shrink-0">
+        <div>
+          <a href="index.html" class="text-xl font-bold align-middle">Top Achados da Babi</a>
+          <span class="ml-2 text-rose-200 text-sm hidden sm:inline">Os melhores achados para o seu bebê</span>
+        </div>
       </div>
       <nav class="flex gap-4 text-sm text-rose-100 items-center">
         <a href="sobre.html" class="hover:text-white">Sobre</a>
@@ -32,12 +36,16 @@
   </header>
 
   <section class="bg-rose-600 text-white pb-12 pt-8">
-    <div class="max-w-5xl mx-auto px-4">
-      <h1 class="text-3xl sm:text-4xl font-bold mb-3">Os melhores achados para o seu bebê</h1>
-      <p class="text-rose-100 text-lg max-w-2xl">
-        Curadoria de produtos infantis — fraldas, higiene, mamadeiras, brinquedos e muito mais.
-        Selecionamos os melhores achados da Amazon para você comprar com tranquilidade.
-      </p>
+    <div class="max-w-5xl mx-auto px-4 grid md:grid-cols-[1fr_auto] gap-8 items-center">
+      <div>
+        <h1 class="text-3xl sm:text-4xl font-bold mb-3">Os melhores achados para o seu bebê</h1>
+        <p class="text-rose-100 text-lg max-w-2xl">
+          Curadoria de produtos infantis — fraldas, higiene, mamadeiras, brinquedos e muito mais.
+          Selecionamos os melhores achados da Amazon para você comprar com tranquilidade.
+        </p>
+      </div>
+      <img src="assets/persona-hero.jpg" alt="Babi, curadoria de produtos para o seu bebê"
+           class="hidden md:block w-56 lg:w-60 rounded-2xl shadow-xl ring-4 ring-white/20 justify-self-end">
     </div>
   </section>
 
