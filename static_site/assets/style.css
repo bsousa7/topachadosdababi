@@ -1,0 +1,21 @@
+/* Top Achados da Babi — ajustes personalizados
+   O grosso do estilo vem do Tailwind via CDN; aqui ficam apenas
+   pequenos complementos que o CDN não cobre por padrão. */
+
+/* Limita títulos de produto a 3 linhas com reticências */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Rolagem suave ao navegar pelas âncoras de categoria */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Compensa o header fixo ao ancorar em uma seção */
+[id] {
+  scroll-margin-top: 5rem;
+}

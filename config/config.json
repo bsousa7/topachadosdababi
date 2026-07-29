@@ -1,0 +1,68 @@
+{
+  "site": {
+    "nome": "Top Achados da Babi",
+    "slogan": "Os melhores achados para o seu bebê",
+    "subtitulo": "Curadoria diária de produtos infantis com os melhores preços na Amazon",
+    "nicho": "produtos para bebês",
+    "partner_tag": "topachadosdab-20"
+  },
+  "categorias": [
+    {
+      "slug": "fraldas",
+      "nome": "Fraldas e Lenços",
+      "keywords": "fraldas bebê descartáveis lenços umedecidos",
+      "descricao_curta": "Fraldas e lenços com melhor custo-benefício.",
+      "descricao_editorial": "Escolher a fralda certa faz toda a diferença no conforto do bebê e no bolso da família. Selecionamos as melhores opções de fraldas descartáveis e lenços umedecidos com foco em qualidade, absorbência e preço. Atualizamos os preços diariamente para você sempre encontrar o melhor valor.",
+      "ativo": true
+    },
+    {
+      "slug": "mamadeiras",
+      "nome": "Mamadeiras e Chupetas",
+      "keywords": "mamadeira chupeta bebê silicone anti-cólica",
+      "descricao_curta": "Mamadeiras e chupetas seguras e bem avaliadas.",
+      "descricao_editorial": "A escolha da mamadeira certa pode ajudar na transição da amamentação e reduzir cólicas. Reunimos as opções com melhor avaliação de pais e mães, focando em materiais seguros, ausência de BPA e bicos que respeitam o desenvolvimento oral do bebê.",
+      "ativo": true
+    },
+    {
+      "slug": "pomadas-higiene",
+      "nome": "Pomadas e Higiene",
+      "keywords": "pomada assaduras higiene bebê shampoo",
+      "descricao_curta": "Produtos de higiene e cuidados para a pele do bebê.",
+      "descricao_editorial": "A pele do bebê é delicada e merece produtos especialmente formulados. Nossa seleção inclui pomadas para assaduras, shampoos suaves, loções e produtos de higiene com fórmulas seguras, dermatologicamente testadas e com as melhores avaliações de quem já usou.",
+      "ativo": true
+    },
+    {
+      "slug": "brinquedos",
+      "nome": "Brinquedos",
+      "keywords": "brinquedo bebê estimulação 0 a 3 anos educativo",
+      "descricao_curta": "Brinquedos que estimulam e divertem desde os primeiros meses.",
+      "descricao_editorial": "Brincar é a principal forma de aprendizado dos bebês. Selecionamos brinquedos que estimulam os sentidos, a coordenação motora e o desenvolvimento cognitivo, adequados para cada faixa etária. Todos os itens passam por verificação de segurança e avaliações de pais.",
+      "ativo": true
+    },
+    {
+      "slug": "amamentacao",
+      "nome": "Amamentação",
+      "keywords": "bomba de leite amamentação sutiã almofada amamentação",
+      "descricao_curta": "Tudo para facilitar o período de amamentação.",
+      "descricao_editorial": "Amamentar pode ser desafiador, e ter os acessórios certos faz diferença. Reunimos bombas de leite, absorventes, almofadas de amamentação, cremes para mamilos e outros produtos para tornar essa fase mais confortável e prática.",
+      "ativo": true
+    },
+    {
+      "slug": "seguranca-mobilidade",
+      "nome": "Segurança e Mobilidade",
+      "keywords": "cadeirinha carro bebê carrinho monitor de bebê",
+      "descricao_curta": "Carrinhos, cadeirinhas e itens de segurança infantil.",
+      "descricao_editorial": "Segurança é inegociável quando se trata de bebês. Nossa curadoria de produtos de mobilidade e segurança inclui cadeirinhas automotivas, carrinhos de passeio, monitores de bebê e babyphones com foco em certificações de segurança e facilidade de uso no dia a dia.",
+      "ativo": true
+    }
+  ],
+  "filtros": {
+    "produtos_por_categoria": 10,
+    "preco_minimo": 15.0,
+    "preco_maximo": 1500.0
+  },
+  "agendamento": {
+    "horarios_fetch": ["06:00", "12:00", "18:00"],
+    "timezone": "America/Sao_Paulo"
+  }
+}
