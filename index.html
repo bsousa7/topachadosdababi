@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Top Achados da Babi — Os melhores achados para o seu bebê</title>
-  <meta name="description" content="Curadoria diária de produtos infantis — fraldas, mamadeiras, pomadas, brinquedos e muito mais. Os melhores preços na Amazon, atualizados todo dia.">
+  <meta name="description" content="Curadoria de produtos infantis — fraldas, higiene, mamadeiras, brinquedos e muito mais, com os melhores achados da Amazon.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍼</text></svg>">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -32,211 +32,109 @@
     <div class="max-w-5xl mx-auto px-4">
       <h1 class="text-3xl sm:text-4xl font-bold mb-3">Os melhores achados para o seu bebê</h1>
       <p class="text-rose-100 text-lg max-w-2xl">
-        Curadoria diária de produtos infantis — fraldas, mamadeiras, pomadas, brinquedos e muito mais.
-        Verificamos os preços na Amazon todo dia para você nunca pagar mais do que precisa.
+        Curadoria de produtos infantis — fraldas, higiene, mamadeiras, brinquedos e muito mais.
+        Selecionamos os melhores achados da Amazon para você comprar com tranquilidade.
       </p>
     </div>
   </section>
 
-  <!-- Navegação por categorias -->
-  <section class="max-w-5xl mx-auto px-4 py-8">
-    <h2 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">Navegar por categoria</h2>
-    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
-      <a href="#fraldas" class="border border-gray-200 rounded-xl p-3 text-center text-sm font-medium text-gray-700 hover:bg-rose-50 hover:border-rose-300 transition-colors">Fraldas e Lenços</a>
-      <a href="#mamadeiras" class="border border-gray-200 rounded-xl p-3 text-center text-sm font-medium text-gray-700 hover:bg-rose-50 hover:border-rose-300 transition-colors">Mamadeiras</a>
-      <a href="#pomadas-higiene" class="border border-gray-200 rounded-xl p-3 text-center text-sm font-medium text-gray-700 hover:bg-rose-50 hover:border-rose-300 transition-colors">Pomadas e Higiene</a>
-      <a href="#brinquedos" class="border border-gray-200 rounded-xl p-3 text-center text-sm font-medium text-gray-700 hover:bg-rose-50 hover:border-rose-300 transition-colors">Brinquedos</a>
-      <a href="#amamentacao" class="border border-gray-200 rounded-xl p-3 text-center text-sm font-medium text-gray-700 hover:bg-rose-50 hover:border-rose-300 transition-colors">Amamentação</a>
-      <a href="#seguranca-mobilidade" class="border border-gray-200 rounded-xl p-3 text-center text-sm font-medium text-gray-700 hover:bg-rose-50 hover:border-rose-300 transition-colors">Segurança</a>
-    </div>
-  </section>
-
-  <main class="max-w-5xl mx-auto px-4 pb-10">
+  <main class="max-w-5xl mx-auto px-4 py-10">
     <!--
-      ┌─────────────────────────────────────────────────────────────────────┐
-      │  COMO ADICIONAR PRODUTOS REAIS (Fase 1 — sem PA-API)                 │
-      │                                                                     │
-      │  1. Logue na Amazon com a conta de Associate.                       │
-      │  2. Abra o produto e use a barra SiteStripe → "Texto" para copiar    │
-      │     o link com tag=topachado0f7b-20 (ou use o Link Builder do        │
-      │     painel de Associados).                                           │
-      │  3. Copie a URL da imagem (botão direito na imagem → copiar imagem). │
-      │  4. Duplique um <article> abaixo e substitua: href, src da imagem,   │
-      │     categoria, título, preço, preço original e desconto.            │
-      │  5. Mantenha SEMPRE  rel="noopener sponsored"  e  tag=topachado0f7b-20.│
-      │                                                                     │
-      │  Os cards abaixo são EXEMPLOS/TEMPLATE — troque por produtos reais. │
-      └─────────────────────────────────────────────────────────────────────┘
+      ┌──────────────────────────────────────────────────────────────────────────┐
+      │  COMO ADICIONAR / EDITAR PRODUTOS (Fase 1 — links manuais do SiteStripe)  │
+      │                                                                          │
+      │  Cada produto é um <article> dentro da grade #achados.                    │
+      │  Para adicionar um novo, duplique um <article> e ajuste:                  │
+      │    • href  → o link do SiteStripe (precisa ter tag=topachado0f7b-20)      │
+      │    • data-cat / rótulo da categoria                                       │
+      │    • título do produto                                                    │
+      │    • imagem: troque o bloco emoji por <img src="URL_DA_IMAGEM" ...>       │
+      │      (botão direito na foto do produto → "Copiar endereço da imagem")     │
+      │  Mantenha SEMPRE  rel="noopener sponsored"  nos links.                     │
+      └──────────────────────────────────────────────────────────────────────────┘
     -->
+    <div class="flex items-baseline justify-between mb-6">
+      <h2 class="text-xl font-bold text-gray-700">🔥 Nossos achados</h2>
+      <span class="text-sm text-gray-400">3 produtos selecionados</span>
+    </div>
 
-    <!-- ============================ FRALDAS ============================ -->
-    <section id="fraldas" class="mb-12">
-      <h2 class="text-xl font-bold mb-6 text-gray-700">👶 Fraldas e Lenços</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <article class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow flex flex-col">
-          <div class="bg-gray-50 p-4 flex items-center justify-center h-44">
-            <img src="https://placehold.co/200x160?text=Produto" alt="Fralda descartável premium para bebê" class="max-h-40 object-contain">
-          </div>
-          <div class="p-4 flex flex-col flex-1">
-            <p class="text-xs text-gray-400 uppercase mb-1">Fraldas</p>
-            <h3 class="font-medium text-gray-800 mb-3 leading-snug text-sm line-clamp-3 flex-1">
-              Fralda Descartável Premium Bebê — Pacote com 60 unidades
-            </h3>
-            <div class="flex items-baseline gap-2 mb-4">
-              <span class="text-xl font-bold text-rose-600">R$ 49,90</span>
-              <span class="text-sm text-gray-400 line-through">R$ 69,90</span>
-              <span class="text-xs bg-rose-100 text-rose-700 px-2 py-0.5 rounded-full font-medium">-29%</span>
-            </div>
-            <a href="https://www.amazon.com.br/dp/ASIN_AQUI?tag=topachado0f7b-20"
-               target="_blank" rel="noopener sponsored"
-               class="block text-center bg-rose-500 hover:bg-rose-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors text-sm mt-auto">
-              Ver na Amazon →
-            </a>
-          </div>
-        </article>
-      </div>
-    </section>
+    <div id="achados" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
-    <!-- ========================== MAMADEIRAS ========================== -->
-    <section id="mamadeiras" class="mb-12">
-      <h2 class="text-xl font-bold mb-6 text-gray-700">🍼 Mamadeiras e Chupetas</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <article class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow flex flex-col">
-          <div class="bg-gray-50 p-4 flex items-center justify-center h-44">
-            <img src="https://placehold.co/200x160?text=Produto" alt="Mamadeira anticólica de silicone" class="max-h-40 object-contain">
-          </div>
-          <div class="p-4 flex flex-col flex-1">
-            <p class="text-xs text-gray-400 uppercase mb-1">Mamadeiras</p>
-            <h3 class="font-medium text-gray-800 mb-3 leading-snug text-sm line-clamp-3 flex-1">
-              Mamadeira Anticólica de Silicone 260ml — Bico Ortodôntico
-            </h3>
-            <div class="flex items-baseline gap-2 mb-4">
-              <span class="text-xl font-bold text-rose-600">R$ 39,90</span>
-            </div>
-            <a href="https://www.amazon.com.br/dp/ASIN_AQUI?tag=topachado0f7b-20"
-               target="_blank" rel="noopener sponsored"
-               class="block text-center bg-rose-500 hover:bg-rose-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors text-sm mt-auto">
-              Ver na Amazon →
-            </a>
-          </div>
-        </article>
-      </div>
-    </section>
+      <!-- 1 · Fralda Pampers Pants Premium (B08K4L452V) -->
+      <article class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition-shadow flex flex-col">
+        <a href="https://www.amazon.com.br/dp/B08K4L452V?tag=topachado0f7b-20&amp;linkCode=sl2&amp;linkId=7736d3ece1602d223893b5ba89060a51&amp;ref_=as_li_ss_tl&amp;ascsubtag=srctok-777f1d4e685d8471"
+           target="_blank" rel="noopener sponsored"
+           class="bg-gradient-to-br from-rose-50 to-rose-100 flex items-center justify-center h-44 text-6xl">
+          👶
+        </a>
+        <div class="p-4 flex flex-col flex-1">
+          <p class="text-xs text-gray-400 uppercase tracking-wide mb-1">Fraldas e Lenços</p>
+          <h3 class="text-sm font-medium text-gray-800 mb-4 leading-snug line-clamp-3 flex-1">
+            Fralda Pampers Pants Premium — modelo calça (Pants)
+          </h3>
+          <a href="https://www.amazon.com.br/dp/B08K4L452V?tag=topachado0f7b-20&amp;linkCode=sl2&amp;linkId=7736d3ece1602d223893b5ba89060a51&amp;ref_=as_li_ss_tl&amp;ascsubtag=srctok-777f1d4e685d8471"
+             target="_blank" rel="noopener sponsored"
+             class="block text-center bg-rose-500 hover:bg-rose-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors text-sm mt-auto">
+            Ver na Amazon →
+          </a>
+        </div>
+      </article>
 
-    <!-- ======================= POMADAS E HIGIENE ====================== -->
-    <section id="pomadas-higiene" class="mb-12">
-      <h2 class="text-xl font-bold mb-6 text-gray-700">🧴 Pomadas e Higiene</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <article class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow flex flex-col">
-          <div class="bg-gray-50 p-4 flex items-center justify-center h-44">
-            <img src="https://placehold.co/200x160?text=Produto" alt="Pomada para assaduras do bebê" class="max-h-40 object-contain">
-          </div>
-          <div class="p-4 flex flex-col flex-1">
-            <p class="text-xs text-gray-400 uppercase mb-1">Pomadas e Higiene</p>
-            <h3 class="font-medium text-gray-800 mb-3 leading-snug text-sm line-clamp-3 flex-1">
-              Pomada para Assaduras 120g — Proteção e Cuidado da Pele
-            </h3>
-            <div class="flex items-baseline gap-2 mb-4">
-              <span class="text-xl font-bold text-rose-600">R$ 24,90</span>
-              <span class="text-sm text-gray-400 line-through">R$ 31,90</span>
-              <span class="text-xs bg-rose-100 text-rose-700 px-2 py-0.5 rounded-full font-medium">-22%</span>
-            </div>
-            <a href="https://www.amazon.com.br/dp/ASIN_AQUI?tag=topachado0f7b-20"
-               target="_blank" rel="noopener sponsored"
-               class="block text-center bg-rose-500 hover:bg-rose-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors text-sm mt-auto">
-              Ver na Amazon →
-            </a>
-          </div>
-        </article>
-      </div>
-    </section>
+      <!-- 2 · Hastes Flexíveis Baby Bath (B07D5JZ4B8) -->
+      <article class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition-shadow flex flex-col">
+        <a href="https://www.amazon.com.br/dp/B07D5JZ4B8?tag=topachado0f7b-20&amp;linkCode=sl2&amp;linkId=301cd3292468fe90a3b41a318cc7b811&amp;ref_=as_li_ss_tl&amp;ascsubtag=srctok-49d9f206ba670bf3"
+           target="_blank" rel="noopener sponsored"
+           class="bg-gradient-to-br from-rose-50 to-rose-100 flex items-center justify-center h-44 text-6xl">
+          🧼
+        </a>
+        <div class="p-4 flex flex-col flex-1">
+          <p class="text-xs text-gray-400 uppercase tracking-wide mb-1">Pomadas e Higiene</p>
+          <h3 class="text-sm font-medium text-gray-800 mb-4 leading-snug line-clamp-3 flex-1">
+            Hastes Flexíveis Baby Bath — cotonetes para higiene do bebê (Branco)
+          </h3>
+          <a href="https://www.amazon.com.br/dp/B07D5JZ4B8?tag=topachado0f7b-20&amp;linkCode=sl2&amp;linkId=301cd3292468fe90a3b41a318cc7b811&amp;ref_=as_li_ss_tl&amp;ascsubtag=srctok-49d9f206ba670bf3"
+             target="_blank" rel="noopener sponsored"
+             class="block text-center bg-rose-500 hover:bg-rose-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors text-sm mt-auto">
+            Ver na Amazon →
+          </a>
+        </div>
+      </article>
 
-    <!-- =========================== BRINQUEDOS ========================= -->
-    <section id="brinquedos" class="mb-12">
-      <h2 class="text-xl font-bold mb-6 text-gray-700">🧸 Brinquedos</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <article class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow flex flex-col">
-          <div class="bg-gray-50 p-4 flex items-center justify-center h-44">
-            <img src="https://placehold.co/200x160?text=Produto" alt="Brinquedo educativo de estimulação para bebê" class="max-h-40 object-contain">
-          </div>
-          <div class="p-4 flex flex-col flex-1">
-            <p class="text-xs text-gray-400 uppercase mb-1">Brinquedos</p>
-            <h3 class="font-medium text-gray-800 mb-3 leading-snug text-sm line-clamp-3 flex-1">
-              Brinquedo Educativo de Estimulação Sensorial — 0 a 3 anos
-            </h3>
-            <div class="flex items-baseline gap-2 mb-4">
-              <span class="text-xl font-bold text-rose-600">R$ 59,90</span>
-            </div>
-            <a href="https://www.amazon.com.br/dp/ASIN_AQUI?tag=topachado0f7b-20"
-               target="_blank" rel="noopener sponsored"
-               class="block text-center bg-rose-500 hover:bg-rose-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors text-sm mt-auto">
-              Ver na Amazon →
-            </a>
-          </div>
-        </article>
-      </div>
-    </section>
+      <!-- 3 · Bellacotton Algodão Quadrado Baby (B0B5YF3HSW) -->
+      <article class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition-shadow flex flex-col">
+        <a href="https://www.amazon.com.br/dp/B0B5YF3HSW?tag=topachado0f7b-20&amp;linkCode=sl2&amp;linkId=64e8b7edf5a4e69db083a3a70552a721&amp;ref_=as_li_ss_tl&amp;ascsubtag=srctok-41ec4e2d5fbfcc72"
+           target="_blank" rel="noopener sponsored"
+           class="bg-gradient-to-br from-rose-50 to-rose-100 flex items-center justify-center h-44 text-6xl">
+          🧴
+        </a>
+        <div class="p-4 flex flex-col flex-1">
+          <p class="text-xs text-gray-400 uppercase tracking-wide mb-1">Pomadas e Higiene</p>
+          <h3 class="text-sm font-medium text-gray-800 mb-4 leading-snug line-clamp-3 flex-1">
+            Bellacotton Algodão Quadrado Baby — Leve 100, Pague 85
+          </h3>
+          <a href="https://www.amazon.com.br/dp/B0B5YF3HSW?tag=topachado0f7b-20&amp;linkCode=sl2&amp;linkId=64e8b7edf5a4e69db083a3a70552a721&amp;ref_=as_li_ss_tl&amp;ascsubtag=srctok-41ec4e2d5fbfcc72"
+             target="_blank" rel="noopener sponsored"
+             class="block text-center bg-rose-500 hover:bg-rose-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors text-sm mt-auto">
+            Ver na Amazon →
+          </a>
+        </div>
+      </article>
 
-    <!-- ========================== AMAMENTAÇÃO ========================= -->
-    <section id="amamentacao" class="mb-12">
-      <h2 class="text-xl font-bold mb-6 text-gray-700">🤱 Amamentação</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <article class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow flex flex-col">
-          <div class="bg-gray-50 p-4 flex items-center justify-center h-44">
-            <img src="https://placehold.co/200x160?text=Produto" alt="Almofada de amamentação" class="max-h-40 object-contain">
-          </div>
-          <div class="p-4 flex flex-col flex-1">
-            <p class="text-xs text-gray-400 uppercase mb-1">Amamentação</p>
-            <h3 class="font-medium text-gray-800 mb-3 leading-snug text-sm line-clamp-3 flex-1">
-              Almofada de Amamentação Ergonômica — Apoio para Mãe e Bebê
-            </h3>
-            <div class="flex items-baseline gap-2 mb-4">
-              <span class="text-xl font-bold text-rose-600">R$ 89,90</span>
-              <span class="text-sm text-gray-400 line-through">R$ 119,90</span>
-              <span class="text-xs bg-rose-100 text-rose-700 px-2 py-0.5 rounded-full font-medium">-25%</span>
-            </div>
-            <a href="https://www.amazon.com.br/dp/ASIN_AQUI?tag=topachado0f7b-20"
-               target="_blank" rel="noopener sponsored"
-               class="block text-center bg-rose-500 hover:bg-rose-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors text-sm mt-auto">
-              Ver na Amazon →
-            </a>
-          </div>
-        </article>
-      </div>
-    </section>
+      <!--
+        4 · B07RGXMKJ9  — aguardando identificação do produto (título + categoria)
+        5 · B09BVS9NXK  — aguardando identificação do produto (título + categoria)
+        Links prontos (já com tag=topachado0f7b-20):
+          https://www.amazon.com.br/dp/B07RGXMKJ9?tag=topachado0f7b-20&linkCode=sl2&linkId=24349038a7ccae5b955664f3b02c5ca5&ref_=as_li_ss_tl&ascsubtag=srctok-4f211ee51bdba9fe
+          https://www.amazon.com.br/dp/B09BVS9NXK?tag=topachado0f7b-20&linkCode=sl2&linkId=ea1f25e2a663dc8adfa69d8ca9ea5566&ref_=as_li_ss_tl&ascsubtag=srctok-52729f2a729b919c
+      -->
+    </div>
 
-    <!-- ==================== SEGURANÇA E MOBILIDADE ==================== -->
-    <section id="seguranca-mobilidade" class="mb-12">
-      <h2 class="text-xl font-bold mb-6 text-gray-700">🚗 Segurança e Mobilidade</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <article class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow flex flex-col">
-          <div class="bg-gray-50 p-4 flex items-center justify-center h-44">
-            <img src="https://placehold.co/200x160?text=Produto" alt="Monitor de bebê sem fio" class="max-h-40 object-contain">
-          </div>
-          <div class="p-4 flex flex-col flex-1">
-            <p class="text-xs text-gray-400 uppercase mb-1">Segurança e Mobilidade</p>
-            <h3 class="font-medium text-gray-800 mb-3 leading-snug text-sm line-clamp-3 flex-1">
-              Monitor de Bebê Sem Fio com Áudio e Visão Noturna
-            </h3>
-            <div class="flex items-baseline gap-2 mb-4">
-              <span class="text-xl font-bold text-rose-600">R$ 249,90</span>
-            </div>
-            <a href="https://www.amazon.com.br/dp/ASIN_AQUI?tag=topachado0f7b-20"
-               target="_blank" rel="noopener sponsored"
-               class="block text-center bg-rose-500 hover:bg-rose-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors text-sm mt-auto">
-              Ver na Amazon →
-            </a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="mt-4 bg-rose-50 rounded-2xl p-8 border border-rose-100">
+    <section class="mt-14 bg-rose-50 rounded-2xl p-8 border border-rose-100">
       <h2 class="text-xl font-semibold mb-4">Por que confiar na curadoria da Babi?</h2>
       <p class="text-gray-600 leading-relaxed mb-4">
         O Top Achados da Babi nasceu da necessidade real de encontrar produtos infantis de qualidade
-        sem gastar horas comparando preços. Verificamos os preços na Amazon diariamente e só
-        recomendamos o que realmente vale a pena — com base em avaliações reais de pais e mães.
+        sem gastar horas comparando opções. Selecionamos itens com base em avaliações reais de pais e
+        mães e só indicamos o que realmente vale a pena.
       </p>
       <p class="text-gray-600 leading-relaxed">
         Todos os links levam diretamente à Amazon, onde você compra com segurança, garantia e
