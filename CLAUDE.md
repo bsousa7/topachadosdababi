@@ -46,6 +46,8 @@ Atualizar este campo conforme avança:
 ## Notas de execução
 - A Fase 2 (`app/`, `scripts/`, `render.yaml`, `requirements.txt`) só deve ser
   implementada quando `AMAZON_ACCESS_KEY` e `AMAZON_SECRET_KEY` estiverem em mãos.
-- Os cards em `static_site/index.html` são exemplos (template). Substitua o
+- O site estático da Fase 1 fica na **raiz** do repositório (`index.html`, `sobre.html`,
+  `politica-de-privacidade.html`, `assets/`), pois o GitHub Pages publica de `/ (root)`.
+- Os cards em `index.html` são exemplos (template). Substitua o
   `ASIN_AQUI` e os dados por produtos reais com links gerados via SiteStripe
   ou o Link Builder do painel de Associados. Todo link precisa de `tag=topachadosdab-20`.

@@ -30,30 +30,33 @@ o projeto avança em fases:
 
 ```
 topachadosdababi/
+├── index.html                # Fase 1 — site estático servido na raiz (GitHub Pages)
+├── sobre.html
+├── politica-de-privacidade.html
+├── robots.txt
+├── assets/style.css
+├── .nojekyll                 # desliga o Jekyll no GitHub Pages
 ├── CLAUDE.md                 # contexto do projeto para o Claude Code
 ├── README.md
 ├── .gitignore
 ├── config/
 │   └── config.json           # site, categorias e keywords (usado na Fase 2)
-├── static_site/              # Fase 1 — site estático (GitHub Pages)
-│   ├── index.html
-│   ├── sobre.html
-│   ├── politica-de-privacidade.html
-│   ├── robots.txt
-│   └── assets/style.css
 ├── app/                      # Fase 2 — Flask (a implementar com credenciais PA-API)
 ├── scripts/                  # Fase 2 — fetch_products.py (a implementar)
 └── data/                     # Fase 2 — SQLite (não commitado)
 ```
+
+> As páginas HTML ficam na **raiz** do repositório porque o GitHub Pages só publica
+> a partir de `/ (root)` ou `/docs` — não é possível apontar para uma subpasta arbitrária.
 
 ---
 
 ## Fase 1 — como colocar no ar
 
 1. **Publique no GitHub Pages:** Settings → Pages → *Deploy from a branch* →
-   branch `main`, pasta `/static_site`. A URL fica
+   selecione o branch e a pasta `/ (root)`. A URL fica
    `https://SEU_USUARIO.github.io/topachadosdababi`.
-2. **Adicione produtos reais** em `static_site/index.html`: para cada produto, gere o link
+2. **Adicione produtos reais** em `index.html`: para cada produto, gere o link
    de afiliado pela barra **SiteStripe** (opção "Texto") ou pelo **Link Builder** do painel de
    Associados, e substitua nos `<article>` de exemplo: `href`, imagem, título, preço e desconto.
    Todo link precisa conter `tag=topachadosdab-20` e `rel="noopener sponsored"`.
